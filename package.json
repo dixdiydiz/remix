@@ -11,7 +11,7 @@
     "publish:private": "node ./scripts/publish-private.js",
     "test": "jest",
     "version": "node ./scripts/version.js",
-    "watch": "rollup -c -w",
+    "watch": "rollup -c -w -m",
     "lint": "eslint --cache --ext .tsx,.ts,.js,.jsx . --fix",
     "format": "prettier --ignore-path .eslintignore --write ./ && npm run lint"
   },
